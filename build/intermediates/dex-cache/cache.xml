@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/intellyelabs/Documents/Personal/Guruvayoor Devasam/TemplApp/calendarview/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d52d52e355dd248af67b6c9702f1cd3b3a1f91cf">
+        <dex dex="/Users/intellyelabs/Documents/Personal/Guruvayoor Devasam/TemplApp/app/build/intermediates/pre-dexed/debug/classes_22d6a1ad400bb34d2604813f01eeb66a5e61e46b.jar" />
+    </item>
+
+</items>

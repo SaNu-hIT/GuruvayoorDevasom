@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="center"
+            android:background="?attr/colorPrimary"
+            android:gravity="center"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <com.leeway.templapp.Customfont.TextViewRobotoRegular
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="60dp"
+                android:gravity="center"
+                android:text="Edit News"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.leeway.templapp.Customfont.TextViewRobotoRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Title"
+                android:textColor="@color/colorFabBlue"
+                android:textSize="17dp" />
+
+            <com.leeway.templapp.Customfont.EditTextRobotoRegular
+                android:id="@+id/edt_newsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colortext_black"
+                android:textSize="16dp" />
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorView"
+                android:paddingBottom="5dp" />
+
+            <com.leeway.templapp.Customfont.TextViewRobotoRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="10dp"
+                android:text="Description"
+                android:textColor="@color/colorFabBlue"
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/border_corner_round">
+
+                <com.leeway.templapp.Customfont.EditTextRobotoRegular
+                    android:id="@+id/edt_newsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@color/white"
+                    android:gravity="top"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/colortext_black"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <com.leeway.templapp.Customfont.TextViewRobotoRegular
+                android:id="@+id/btnImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/corner_background_blue"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:text="UPLOAD IMAGE"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <GridView
+                android:id="@+id/gridView1"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:paddingTop="10dp"
+                android:verticalSpacing="30dp"></GridView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:gravity="bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <com.leeway.templapp.Customfont.ButtonRobotoRegular
+
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/corner_background_yellow_two"
+                        android:clickable="true"
+                        android:elevation="3dp"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:text="CANCEL"
+                        android:textAllCaps="false"
+                        android:textColor="#448AFF"
+                        android:textSize="18dp" />
+
+                    <com.leeway.templapp.Customfont.ButtonRobotoRegular
+                        android:id="@+id/btn_addNews"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/corner_background_yellow_two"
+                        android:clickable="true"
+                        android:elevation="3dp"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:text="UPDATE NEWS"
+                        android:textAllCaps="false"
+                        android:textColor="#448AFF"
+                        android:textSize="18dp"
+
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

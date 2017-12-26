@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.leeway.templapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/main_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/main_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:label">
+        <activity android:name=".MainScreens.Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp_Page"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".MainScreens.Activity.Login_Page"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainScreens.Activity.Members"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".Confirm_Password"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Verify"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainScreens.Activity.AddIllam"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainScreens.Activity.AddMembers_Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalendarNew"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainScreens.Activity.ListAllIllam"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainScreens.Activity.AddCount"
+            android:label="@string/title_activity_add_count"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainScreens.Activity.AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".ContactUs" />
+        <activity android:name=".MainScreens.Activity.ListCount" />
+        <activity android:name=".MainScreens.Activity.JobsListing" />
+        <activity android:name=".MainScreens.Activity.NewsActivity" />
+        <activity android:name=".MainScreens.Activity.AddEventNews" />
+        <activity android:name=".MainScreens.Activity.AddRemark" />
+        <activity android:name=".MainScreens.Activity.NewsAdmin.AddNewsActivity" />
+        <activity android:name=".MainScreens.Activity.NewsAdmin.EditNewsActivity" />
+        <activity android:name=".MainScreens.Activity.NewsAdmin.ViewNewsActivity" />
+        <activity
+            android:name=".MainScreens.Activity.UserSide"
+            android:label="@string/title_activity_user_side">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".MainScreens.Activity.ListRemark"></activity>
+    </application>
+
+</manifest>

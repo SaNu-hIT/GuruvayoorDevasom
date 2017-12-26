@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:id="@+id/main"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_height="?actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:onClick="onBackPressed"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Illam"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="30dp"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        >
+
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginBottom="6dp"
+    android:src="@drawable/kr"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ede9e9"
+            android:layout_marginTop="1dp"
+            android:hint="Illam Name"
+
+            android:padding="15dp"
+            android:paddingLeft="10dp"
+            android:textColor="#565454"
+        
+            android:id="@+id/illamname"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ede9e9"
+            android:hint="Address"
+            android:textColor="#565454"
+            android:padding="15dp"
+        
+            android:id="@+id/illamplace"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="CREATE"
+            android:id="@+id/createbtn"
+            android:layout_margin="20dp"
+            android:textColor="#FFF"
+            android:background="#e48552"
+            />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

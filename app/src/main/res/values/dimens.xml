@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="icon_top_margin">24dp</dimen>
+    <dimen name="icon_bottom_margin">24dp</dimen>
+    <dimen name="title_bottom_margin">16dp</dimen>
+    <dimen name="field_width_standard">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="et_font_size">14dp</dimen>
+    <dimen name="etphone_font_size">12dp</dimen>
+
+
+    <!-- LAYOUT INFO LABEL TEXT Size Dimensions -->
+    <dimen name="paynimo_info_label_textSize">15sp</dimen>
+
+    <!-- LAYOUT PADDING Dimensions -->
+    <dimen name="paynimo_default_layout_padding">15dp</dimen>
+
+    <!-- Checkbox Dimensions -->
+    <dimen name="paynimo_checkbox_textSize">16sp</dimen>
+
+    <!-- RadioButton Dimensions -->
+    <dimen name="paynimo_radioButton_textSize">16sp</dimen>
+
+    <dimen name="card_height">304dp</dimen>
+    <dimen name="md_keylines">8dp</dimen>
+    <dimen name="tile_padding">8dp</dimen>
+    <dimen name="tile_height">160dp</dimen>
+    <dimen name="app_bar_height">80dp</dimen>
+    <dimen name="article_keylines">10dp</dimen>
+    <dimen name="avator_size">40dp</dimen>
+    <dimen name="card_title_height">40dp</dimen>
+    <dimen name="article_titles">20sp</dimen>
+    <dimen name="cards_button_width">48dp</dimen>
+    <dimen name="cards_button_height">48dp</dimen>
+    <dimen name="article_subheading">16sp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <dimen name="list_body">14sp</dimen>
+    <dimen name="navheader_height">222dp</dimen>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_add"
+            android:title="Add Illam" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/person_add"
+            android:title="Add User" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/person_user"
+            android:title="Users" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/list_view"
+            android:title="Ilam" />
+        <item
+            android:id="@+id/Remarks_id"
+            android:icon="@drawable/list_view"
+            android:title="Remarks" />
+        <item
+            android:id="@+id/add_news"
+            android:icon="@drawable/news_add"
+            android:title="Add news" />
+
+
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/logouts"
+                android:title="Logout" />
+    <item android:title="Communicate">
+
+            <item
+                android:id="@+id/usersview"
+                android:icon="@drawable/person_user"
+                android:title="Users View" />
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/contact_us"-->
+                <!--android:title="Contact us" />-->
+
+    </item>
+    </group>
+</menu>

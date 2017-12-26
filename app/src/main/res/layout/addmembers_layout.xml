@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ffff"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_height="?actionBarSize">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:onClick="onBackPressed"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Memebers"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="30dp"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        >
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="#ede9e9"
+            android:layout_marginTop="1dp"
+            android:hint="Member name"
+            android:paddingLeft="10dp"
+            android:textColor="#565454"
+          
+            android:id="@+id/membername"
+            />
+        <EditText
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"             android:padding="15dp"
+            android:background="#ede9e9"
+            android:hint="Phone"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+          
+            android:textColor="#565454"
+            android:id="@+id/memberphone"
+            />
+        <EditText
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"             android:padding="15dp"
+            android:background="#ede9e9"
+            android:hint="Member Password"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+          
+            android:textColor="#565454"
+            android:id="@+id/memberpassword"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+              android:layout_height="wrap_content"             android:padding="15dp"
+            android:background="#ede9e9"
+            android:hint="Member id"
+          
+            android:textColor="#565454"
+            android:paddingLeft="10dp"
+            android:id="@+id/memberid"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/memberillamid"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#73787b"
+            android:letterSpacing="0.02"
+            android:background="#e48552"
+            android:hint="Select Occasion"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="CREATE"
+            android:layout_margin="20dp"
+            android:id="@+id/createbtn"
+            android:textColor="#FFF"
+            android:background="#e48552"
+            />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

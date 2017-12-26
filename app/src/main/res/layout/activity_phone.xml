@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f28c38"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageicon"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/pagoda"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+
+        />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/title_bottom_margin"
+        android:textColor="#FFF"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_below="@+id/imageicon"
+        android:text="KeezhSanthees"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/phone_auth_fields"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_below="@+id/title_text"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/field_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="@string/hint_phone_number"
+                android:textColorHint="#434141"
+                android:background="#FFF"
+                android:textColor="#2e2d2d"
+                android:padding="5dp"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/field_verification_code"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="@string/hint_verification_code"
+                android:textColorHint="#2b2a2a"
+                android:textColor="#2d2c2c"
+                android:background="#FFF"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:weightSum="3.0">
+
+            <Button
+                android:id="@+id/button_start_verification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:textColor="#252424"
+                android:textStyle="bold"
+                android:background="#FFF"
+                android:text="Send"
+                />
+
+            <Button
+                android:id="@+id/button_verify_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="10dp"
+                android:textColor="#252424"
+                android:textStyle="bold"
+                android:background="#FFF"
+                android:text="@string/verify_phone_auth"
+                />
+
+            <Button
+                android:id="@+id/button_resend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="10dp"
+                android:textColor="#252424"
+                android:textStyle="bold"
+                android:background="#FFF"
+                android:text="@string/resend_phone_auth"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:id="@+id/alreadyaccount"
+                android:layout_gravity="top"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

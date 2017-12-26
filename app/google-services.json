@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "525941458999",
+    "firebase_url": "https://templeproject-68a67.firebaseio.com",
+    "project_id": "templeproject-68a67",
+    "storage_bucket": "templeproject-68a67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525941458999:android:4ded24edd1075cbf",
+        "android_client_info": {
+          "package_name": "com.leeway.templapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525941458999-9qo1fvmdqc2t7lauqfrg8840rf2i68kc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leeway.templapp",
+            "certificate_hash": "4191e14797007662bf6e9beb2164d48277cf978b"
+          }
+        },
+        {
+          "client_id": "525941458999-2kqebjok7tr7uss7gk769jilbvl9l5rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXqfL7BvzlYBr8CTZ0rmm_JgTdfnhYLhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525941458999-2kqebjok7tr7uss7gk769jilbvl9l5rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    android:orientation="vertical"
+    android:padding="2dp">
+
+
+    <com.leeway.templapp.Customfont.TextViewRobotoBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="20dp"
+
+        android:text="Confirm deletion?"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <com.leeway.templapp.Customfont.ButtonRobotoRegular
+            android:id="@+id/btn_Cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+
+            android:text="cancel"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp" />
+
+        <com.leeway.templapp.Customfont.ButtonRobotoRegular
+            android:id="@+id/btn_Ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Ok"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp" />
+    </LinearLayout>
+</LinearLayout>
